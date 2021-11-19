@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/experiment_2
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: yhy123456
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: org.yhy.rest_work.entity
